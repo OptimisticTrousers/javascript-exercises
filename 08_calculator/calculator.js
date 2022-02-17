@@ -36,13 +36,14 @@ const sum = function(numbers) {
 
 const multiply = function(numbers) {
 
-  let product = 0
+  let product = 1
 
   for(let i = 0; i < numbers.length; i++){
+
     product *= numbers[i]
   }
 
-  return product 
+  return product
 
 };
 
